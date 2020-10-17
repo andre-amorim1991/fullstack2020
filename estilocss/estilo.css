@@ -1,0 +1,110 @@
+/* Formatação do HTML*/
+* {
+    margin: 0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Fim da formatação HTML*/
+
+/*Fortamatação do body*/
+#p1 {
+    text-indent: 10px;
+} 
+
+/*Fim da formatação body */
+
+/*Formtação do menu */
+
+.menu {
+    background-color: red;
+    width: 100%;
+    height: 128px;   
+}
+
+.links{
+    color:white;
+    text-decoration: none; 
+    padding-left: 18%;
+    display: inline;   
+}
+/*Fim da formatação do Menu */
+
+/*Formatação produtos*/
+
+.categorias{
+    display: block;
+    background: indigo;
+    width: 125px;
+
+}
+
+.itens {
+    display: inline-block;
+    width:22%;
+
+}
+
+.itens td {
+    width: 22%;
+    padding:10px; 
+}
+
+.descricao {
+    font-weight: bold;
+}
+
+.precovelho {
+    text-decoration: line-through;
+    font-size: 14px;
+
+}
+
+.preconovo {
+    color:red;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Fim da Formatação produtos */
+
+/* Formatção contato */
+
+.contato {
+    position: relative;
+    text-align: center;
+    margin: 0px 200px;
+    
+} 
+/* Fim da formatação contato */
+
+/* Formatção lojas */
+
+.lojas {
+    background: red;
+    height: 100px;
+    width:100%;
+    padding: 0px 90px 0px 90px;
+    color:white;
+}
+
+.lojas td{
+    position: relative;
+    height: 100px;
+    padding: 0px 90px 0px 90px;
+}
+   
+/* Fim formatação lojas */
+
+/* Formatação do rodapé*/
+.rodape{
+    text-align: center;
+}
+
+.rodape p{
+    color: red;
+    font-weight: bolder;
+}
+
+#direitos{
+    color: black;
+}
+/* Fim de formatação rodapé */
